@@ -1,8 +1,9 @@
 package classedObjects;
 
-public class Book {
+public class Book implements Comparable<Book> {
     private String title;
     private String author;
+
     private int price;
     private static int edition;
     private int isbn;
@@ -46,6 +47,13 @@ public class Book {
         this.isbn = isbn;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price){
+        this.price=price;
+    }
     @Override
     public String toString() {
         return "title: " + title + System.lineSeparator() + "author: " + author + System.lineSeparator() +
@@ -74,4 +82,8 @@ public class Book {
         return price * 36 % Integer.MAX_VALUE;
     }
 
+    @Override
+    public int compareTo(Book book) {
+        return isbn - book.isbn;
+    }
 }

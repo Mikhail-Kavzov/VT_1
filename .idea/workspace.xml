@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Complete 11 Task">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/SixthTask/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classedObjects/Comparators/BookAuthorComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classedObjects/Comparators/BookPriceComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classedObjects/Comparators/BookTitleComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/FifthTask/SubsetFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/FifthTask/SubsetFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classedObjects/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classedObjects/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/seventhTask/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/seventhTask/Sorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662100020077</updated>
       <workItem from="1662100022642" duration="4118000" />
-      <workItem from="1662124476886" duration="14425000" />
+      <workItem from="1662124476886" duration="16041000" />
     </task>
     <task id="LOCAL-00001" summary="Complete First Task">
       <created>1662100917359</created>
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662136520860</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Complete 11 Task">
+      <created>1662139201827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139201827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

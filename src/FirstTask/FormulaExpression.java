@@ -5,7 +5,7 @@ import static java.lang.Math.sin;
 
 public class FormulaExpression {
 
-    public static double Calculate(double x, double y) {
+    public static double calculate(double x, double y) {
         double sum=x+y;
         double sinus=sin(sum);
         double numerator = 1+ sinus*sinus;

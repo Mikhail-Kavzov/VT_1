@@ -1,4 +1,4 @@
-package fundamentals.FirstTask;
+package fundamentals.firstTask;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.sin;

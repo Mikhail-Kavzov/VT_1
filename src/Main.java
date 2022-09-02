@@ -1,10 +1,14 @@
 import classedObjects.Ball;
 import classedObjects.Basket;
 import classedObjects.Color;
-import fundamentals.FirstTask.FormulaExpression;
-import fundamentals.FourthTask.TestPrime;
-import fundamentals.SecondTask.Region;
-import fundamentals.ThirdTask.TangentRange;
+import fundamentals.fifthTask.SubsetFinder;
+import fundamentals.firstTask.FormulaExpression;
+import fundamentals.fourthTask.TestPrime;
+import fundamentals.secondTask.Region;
+import fundamentals.seventhTask.Sorter;
+import fundamentals.thirdTask.TangentRange;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,7 +32,14 @@ public class Main {
             listPositions.forEach(index -> System.out.print(index + " "));
         }
         System.out.println();
+
         System.out.println("----------------------------TASK 5 -----------------------------");
+        System.out.println("Exclude " + SubsetFinder.find(new int[]{5, 2, 6, 9, 22, 7, 17, 28}) + " elements");
+
+        System.out.println("----------------------------TASK 7 -----------------------------");
+        var arr=new double[]{5, 7, 9, 11, 2, -5, -53, 20, -6};
+        Sorter.sortShell(arr);
+        System.out.println("Sort :" + Arrays.toString(arr));
 
         System.out.println("----------------------------TASK 9 -----------------------------");
 

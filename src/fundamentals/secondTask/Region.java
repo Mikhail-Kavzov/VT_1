@@ -1,4 +1,4 @@
-package fundamentals.SecondTask;
+package fundamentals.secondTask;
 
 public class Region {
 

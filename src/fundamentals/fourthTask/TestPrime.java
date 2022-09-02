@@ -1,4 +1,4 @@
-package fundamentals.FourthTask;
+package fundamentals.fourthTask;
 
 import java.util.ArrayList;
 import java.util.List;

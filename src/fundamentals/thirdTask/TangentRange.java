@@ -1,4 +1,4 @@
-package fundamentals.ThirdTask;
+package fundamentals.thirdTask;
 
 
 import java.util.LinkedHashMap;

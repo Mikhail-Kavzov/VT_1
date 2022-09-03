@@ -1,7 +1,6 @@
 package classedObjects;
 
 public class ProgrammerBook extends Book {
-
     private String language;
     private int level;
 

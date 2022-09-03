@@ -6,6 +6,7 @@ import fundamentals.firstTask.FormulaExpression;
 import fundamentals.fourthTask.TestPrime;
 import fundamentals.secondTask.Region;
 import fundamentals.seventhTask.Sorter;
+import fundamentals.sixthTask.Matrix;
 import fundamentals.thirdTask.TangentRange;
 
 import java.util.Arrays;
@@ -35,6 +36,12 @@ public class Main {
 
         System.out.println("----------------------------TASK 5 -----------------------------");
         System.out.println("Exclude " + SubsetFinder.find(new int[]{5, 2, 6, 9, 22, 7, 17, 28}) + " elements");
+
+        System.out.println("----------------------------TASK 6 -----------------------------");
+        var matrix=Matrix.get(new double[]{5, 6, 7, 9, 11});
+        for (var item:matrix){
+            System.out.println(Arrays.toString(item));
+        }
 
         System.out.println("----------------------------TASK 7 -----------------------------");
         var arr=new double[]{5, 7, 9, 11, 2, -5, -53, 20, -6};

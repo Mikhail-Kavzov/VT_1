@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Complete 11 Task">
-      <change afterPath="$PROJECT_DIR$/src/classedObjects/Comparators/BookAuthorComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classedObjects/Comparators/BookPriceComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classedObjects/Comparators/BookTitleComparator.java" afterDir="false" />
+    <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Implement Comparators">
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/sixthTask/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classedObjects/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classedObjects/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/seventhTask/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/seventhTask/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classedObjects/ProgrammerBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classedObjects/ProgrammerBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1662100020077</updated>
       <workItem from="1662100022642" duration="4118000" />
-      <workItem from="1662124476886" duration="16041000" />
+      <workItem from="1662124476886" duration="16856000" />
+      <workItem from="1662194714489" duration="988000" />
+      <workItem from="1662201035479" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="Complete First Task">
       <created>1662100917359</created>
@@ -104,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662139201827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implement Comparators">
+      <created>1662140667599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662140667599</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implement Comparators">
+      <created>1662140849978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662140849978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +141,7 @@
     <MESSAGE value="Complete Second Task" />
     <MESSAGE value="Complete 4 Task" />
     <MESSAGE value="Complete 11 Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete 11 Task" />
+    <MESSAGE value="Implement Comparators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Comparators" />
   </component>
 </project>

@@ -1,6 +1,5 @@
-import classedObjects.Ball;
-import classedObjects.Basket;
-import classedObjects.Color;
+import classedObjects.*;
+import fundamentals.eighthTask.Sequence;
 import fundamentals.fifthTask.SubsetFinder;
 import fundamentals.firstTask.FormulaExpression;
 import fundamentals.fourthTask.TestPrime;
@@ -38,7 +37,7 @@ public class Main {
         System.out.println("Exclude " + SubsetFinder.find(new int[]{5, 2, 6, 9, 22, 7, 17, 28}) + " elements");
 
         System.out.println("----------------------------TASK 6 -----------------------------");
-        var matrix=Matrix.get(new double[]{5, 6, 7, 9, 11});
+        var matrix=Matrix.get(new double[]{5, 6, 7, 9, 11,2});
         for (var item:matrix){
             System.out.println(Arrays.toString(item));
         }
@@ -48,8 +47,13 @@ public class Main {
         Sorter.sortShell(arr);
         System.out.println("Sort :" + Arrays.toString(arr));
 
-        System.out.println("----------------------------TASK 9 -----------------------------");
+        System.out.println("----------------------------TASK 8 -----------------------------");
+        System.out.println("Positions to insert elements of the 2nd sequence into the 1st: ");
+        var arrPos=Sequence.getPositions(new double[]{5,5,6,8,11,20},new double[]{4,5,7,11,12,56,80});
+        arrPos.forEach(value -> System.out.print(value+" "));
+        System.out.println();
 
+        System.out.println("----------------------------TASK 9 -----------------------------");
         var balls = new Ball[]{
                 new Ball(Color.BLUE, 5.7),
                 new Ball(Color.RED, 10.4),
@@ -58,6 +62,29 @@ public class Main {
 
         var basket = new Basket(balls);
         System.out.println("Weight: " + basket.getBallsWeight() + " BlueCount: " + basket.getCountBallsColor(Color.BLUE));
+
+        System.out.println("----------------------------TASK 12 -----------------------------");
+        Book book1 = new Book("Name1", "Author1", 15, 2);
+        Book book2 = new Book("Name2", "Author2", 19, 1);
+        Book book3 = new Book("Name3", "Author3", 15, 2);
+        System.out.println(book1.equals(book2));
+        System.out.println(book3.equals(book1));
+        System.out.println(book3.hashCode());
+        System.out.println(book1.hashCode());
+        System.out.println(book2.toString());
+
+        System.out.println("----------------------------TASK 13 -----------------------------");
+        Book programmerBook1 = new ProgrammerBook("en",5);
+        Book programmerBook2 = new ProgrammerBook("ru",2);
+        Book programmerBook3 = new ProgrammerBook("en",5);
+        System.out.println(programmerBook1.equals(programmerBook2));
+        System.out.println(programmerBook3.equals(programmerBook1));
+        System.out.println(programmerBook3.hashCode());
+        System.out.println(programmerBook1.hashCode());
+        System.out.println(programmerBook2.toString());
+
+        System.out.println("----------------------------TASK 15 -----------------------------");
+
 
     }
 }

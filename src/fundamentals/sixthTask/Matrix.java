@@ -5,12 +5,8 @@ public class Matrix {
         int len = arr.length;
         double[][] result = new double[len][len];
         for (int i = 0; i < len; i++) {
-            for (int j = i; j < len; j++) {
-                result[i][j - i] = arr[j];
-
-            }
-            for (int j = 0; j < i; j++) {
-                result[i][len - i + j] = arr[j];
+            for (int j = 0; j < len; j++) {
+                result[i][j] = arr[(i + j) % len];
             }
         }
         return result;

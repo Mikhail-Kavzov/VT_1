@@ -1,4 +1,4 @@
-package classedObjects;
+package classesObjects.enums;
 
 public enum Color {
     RED,

@@ -1,4 +1,4 @@
-package classedObjects;
+package classesObjects.classes;
 
 public class Book implements Comparable<Book> {
     private String title;

@@ -1,4 +1,4 @@
-package classedObjects;
+package classesObjects.classes;
 
 public class ProgrammerBook extends Book {
     private String language;

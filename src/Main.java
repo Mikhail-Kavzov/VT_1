@@ -1,7 +1,11 @@
-import classedObjects.*;
-import classedObjects.Comparators.BookAuthorComparator;
-import classedObjects.Comparators.BookPriceComparator;
-import classedObjects.Comparators.BookTitleComparator;
+import classesObjects.classes.Ball;
+import classesObjects.classes.Basket;
+import classesObjects.classes.Book;
+import classesObjects.classes.ProgrammerBook;
+import classesObjects.comparators.BookAuthorComparator;
+import classesObjects.comparators.BookPriceComparator;
+import classesObjects.comparators.BookTitleComparator;
+import classesObjects.enums.Color;
 import fundamentals.eighthTask.Sequence;
 import fundamentals.fifthTask.SubsetFinder;
 import fundamentals.firstTask.FormulaExpression;

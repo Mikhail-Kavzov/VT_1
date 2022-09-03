@@ -1,6 +1,6 @@
-package classedObjects.Comparators;
+package classesObjects.comparators;
 
-import classedObjects.Book;
+import classesObjects.classes.Book;
 
 import java.util.Comparator;
 

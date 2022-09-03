@@ -1,4 +1,6 @@
-package classedObjects;
+package classesObjects.classes;
+
+import classesObjects.enums.Color;
 
 public class Ball {
     private final Color color;

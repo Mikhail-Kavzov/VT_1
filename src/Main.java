@@ -1,4 +1,7 @@
 import classedObjects.*;
+import classedObjects.Comparators.BookAuthorComparator;
+import classedObjects.Comparators.BookPriceComparator;
+import classedObjects.Comparators.BookTitleComparator;
 import fundamentals.eighthTask.Sequence;
 import fundamentals.fifthTask.SubsetFinder;
 import fundamentals.firstTask.FormulaExpression;
@@ -9,8 +12,22 @@ import fundamentals.sixthTask.Matrix;
 import fundamentals.thirdTask.TangentRange;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.TreeSet;
 
 public class Main {
+
+    private static void ComparatorConfig(Comparator<Book> bookComparator) {
+
+        TreeSet<Book> bookSet = new TreeSet<>(bookComparator);
+        bookSet.add(new Book("Name1", "Author3", 16, 2, 5));
+        bookSet.add(new Book("Name4", "Author2", 154, 1, 1));
+        bookSet.add(new Book("Name3", "Author2", 15, 3, 2));
+        bookSet.add(new Book("Name2", "Author4", 17, 1, 4));
+        bookSet.forEach(System.out::println);
+        System.out.println("----------------------------------------------------------");
+    }
+
     public static void main(String[] args) {
         System.out.println("----------------------------TASK 1 -----------------------------");
         System.out.println(FormulaExpression.calculate(10.71, 20.03));
@@ -37,20 +54,20 @@ public class Main {
         System.out.println("Exclude " + SubsetFinder.find(new int[]{5, 2, 6, 9, 22, 7, 17, 28}) + " elements");
 
         System.out.println("----------------------------TASK 6 -----------------------------");
-        var matrix=Matrix.get(new double[]{5, 6, 7, 9, 11,2});
-        for (var item:matrix){
+        var matrix = Matrix.get(new double[]{5, 6, 7, 9, 11, 2});
+        for (var item : matrix) {
             System.out.println(Arrays.toString(item));
         }
 
         System.out.println("----------------------------TASK 7 -----------------------------");
-        var arr=new double[]{5, 7, 9, 11, 2, -5, -53, 20, -6};
+        var arr = new double[]{5, 7, 9, 11, 2, -5, -53, 20, -6};
         Sorter.sortShell(arr);
         System.out.println("Sort :" + Arrays.toString(arr));
 
         System.out.println("----------------------------TASK 8 -----------------------------");
         System.out.println("Positions to insert elements of the 2nd sequence into the 1st: ");
-        var arrPos=Sequence.getPositions(new double[]{5,5,6,8,11,20},new double[]{4,5,7,11,12,56,80});
-        arrPos.forEach(value -> System.out.print(value+" "));
+        var arrPos = Sequence.getPositions(new double[]{5, 5, 6, 8, 11, 20}, new double[]{4, 5, 7, 11, 12, 56, 80});
+        arrPos.forEach(value -> System.out.print(value + " "));
         System.out.println();
 
         System.out.println("----------------------------TASK 9 -----------------------------");
@@ -74,9 +91,9 @@ public class Main {
         System.out.println(book2.toString());
 
         System.out.println("----------------------------TASK 13 -----------------------------");
-        Book programmerBook1 = new ProgrammerBook("en",5);
-        Book programmerBook2 = new ProgrammerBook("ru",2);
-        Book programmerBook3 = new ProgrammerBook("en",5);
+        Book programmerBook1 = new ProgrammerBook("en", 5);
+        Book programmerBook2 = new ProgrammerBook("ru", 2);
+        Book programmerBook3 = new ProgrammerBook("en", 5);
         System.out.println(programmerBook1.equals(programmerBook2));
         System.out.println(programmerBook3.equals(programmerBook1));
         System.out.println(programmerBook3.hashCode());
@@ -84,7 +101,16 @@ public class Main {
         System.out.println(programmerBook2.toString());
 
         System.out.println("----------------------------TASK 15 -----------------------------");
+        ComparatorConfig(null);
 
-
+        System.out.println("----------------------------TASK 16 -----------------------------");
+        System.out.println("Sort by Title: ");
+        ComparatorConfig(new BookTitleComparator());
+        System.out.println("Sort by Title -> Author: ");
+        ComparatorConfig(new BookTitleComparator().thenComparing(new BookAuthorComparator()));
+        System.out.println("Sort by Author -> Title: ");
+        ComparatorConfig(new BookAuthorComparator().thenComparing(new BookTitleComparator()));
+        System.out.println("Sort by Author->Title->Price: ");
+        ComparatorConfig(new BookAuthorComparator().thenComparing(new BookTitleComparator()).thenComparing(new BookPriceComparator()));
     }
 }

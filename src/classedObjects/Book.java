@@ -6,6 +6,7 @@ public class Book implements Comparable<Book> {
     private int price;
     private static int edition;
     private int isbn;
+
     protected Book() {
     }
 

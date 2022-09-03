@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Implement Comparators">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/sixthTask/Matrix.java" afterDir="false" />
+    <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Add Tasks to Main method">
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/eighthTask/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classedObjects/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classedObjects/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classedObjects/ProgrammerBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classedObjects/ProgrammerBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/fifthTask/SubsetFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/fifthTask/SubsetFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/sixthTask/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/sixthTask/Matrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <workItem from="1662100022642" duration="4118000" />
       <workItem from="1662124476886" duration="16856000" />
       <workItem from="1662194714489" duration="988000" />
-      <workItem from="1662201035479" duration="2677000" />
+      <workItem from="1662201035479" duration="8369000" />
     </task>
     <task id="LOCAL-00001" summary="Complete First Task">
       <created>1662100917359</created>
@@ -119,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662140849978</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Complete Matrix">
+      <created>1662203752573</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662203752573</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Tasks to Main method">
+      <created>1662207049860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662207049860</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +157,8 @@
     <MESSAGE value="Complete 4 Task" />
     <MESSAGE value="Complete 11 Task" />
     <MESSAGE value="Implement Comparators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Comparators" />
+    <MESSAGE value="Complete Matrix" />
+    <MESSAGE value="Add Tasks to Main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Tasks to Main method" />
   </component>
 </project>

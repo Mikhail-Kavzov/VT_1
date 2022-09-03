@@ -1,4 +1,5 @@
 package fundamentals.fifthTask;
+
 public class SubsetFinder {
     public static int find(int[] arr) {
         int result = 0;

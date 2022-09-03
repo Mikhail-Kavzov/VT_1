@@ -92,7 +92,7 @@ public class Main {
         System.out.println(book3.equals(book1));
         System.out.println(book3.hashCode());
         System.out.println(book1.hashCode());
-        System.out.println(book2.toString());
+        System.out.println(book2);
 
         System.out.println("----------------------------TASK 13 -----------------------------");
         Book programmerBook1 = new ProgrammerBook("en", 5);
@@ -102,7 +102,7 @@ public class Main {
         System.out.println(programmerBook3.equals(programmerBook1));
         System.out.println(programmerBook3.hashCode());
         System.out.println(programmerBook1.hashCode());
-        System.out.println(programmerBook2.toString());
+        System.out.println(programmerBook2);
 
         System.out.println("----------------------------TASK 15 -----------------------------");
         ComparatorConfig(null);

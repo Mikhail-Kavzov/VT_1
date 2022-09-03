@@ -21,7 +21,7 @@ import java.util.TreeSet;
 
 public class Main {
 
-    private static void ComparatorConfig(Comparator<Book> bookComparator) {
+    private static void comparatorConfig(Comparator<Book> bookComparator) {
 
         TreeSet<Book> bookSet = new TreeSet<>(bookComparator);
         bookSet.add(new Book("Name1", "Author3", 16, 2, 5));
@@ -105,16 +105,16 @@ public class Main {
         System.out.println(programmerBook2);
 
         System.out.println("----------------------------TASK 15 -----------------------------");
-        ComparatorConfig(null);
+        comparatorConfig(null);
 
         System.out.println("----------------------------TASK 16 -----------------------------");
         System.out.println("Sort by Title: ");
-        ComparatorConfig(new BookTitleComparator());
+        comparatorConfig(new BookTitleComparator());
         System.out.println("Sort by Title -> Author: ");
-        ComparatorConfig(new BookTitleComparator().thenComparing(new BookAuthorComparator()));
+        comparatorConfig(new BookTitleComparator().thenComparing(new BookAuthorComparator()));
         System.out.println("Sort by Author -> Title: ");
-        ComparatorConfig(new BookAuthorComparator().thenComparing(new BookTitleComparator()));
+        comparatorConfig(new BookAuthorComparator().thenComparing(new BookTitleComparator()));
         System.out.println("Sort by Author->Title->Price: ");
-        ComparatorConfig(new BookAuthorComparator().thenComparing(new BookTitleComparator()).thenComparing(new BookPriceComparator()));
+        comparatorConfig(new BookAuthorComparator().thenComparing(new BookTitleComparator()).thenComparing(new BookPriceComparator()));
     }
 }

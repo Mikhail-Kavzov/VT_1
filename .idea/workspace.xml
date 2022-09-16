@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Fixing bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/thirdTask/TangentRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/thirdTask/TangentRange.java" afterDir="false" />
+    <list default="true" id="0fc0d3d4-4831-4e98-94b8-e3957aee6a54" name="Changes" comment="Add exceptions">
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/fourthTask/TestPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/fourthTask/TestPrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <workItem from="1662244403343" duration="182000" />
       <workItem from="1662982733681" duration="3000" />
       <workItem from="1663014117951" duration="3000" />
-      <workItem from="1663314233821" duration="353000" />
+      <workItem from="1663314233821" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="Complete First Task">
       <created>1662100917359</created>
@@ -180,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662243474173</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add exceptions">
+      <created>1663314725605</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663314725605</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
     <MESSAGE value="Complete Matrix" />
     <MESSAGE value="Add Tasks to Main method" />
     <MESSAGE value="Fixing bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing bugs" />
+    <MESSAGE value="Add exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exceptions" />
   </component>
 </project>

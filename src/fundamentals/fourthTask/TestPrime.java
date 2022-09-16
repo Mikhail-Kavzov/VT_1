@@ -7,6 +7,8 @@ import static java.lang.Math.sqrt;
 
 public class TestPrime {
     public static List<Integer> definePrimes(int[] arr) {
+        if (arr==null)
+            throw new NullPointerException("arr is null");
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (isPrime(arr[i]))

@@ -4,7 +4,6 @@ import static java.lang.Math.abs;
 import static java.lang.Math.sin;
 
 public class FormulaExpression {
-
     public static double calculate(double x, double y) {
         double sum = x + y;
         double sinus = sin(sum);

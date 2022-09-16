@@ -2,6 +2,8 @@ package fundamentals.sixthTask;
 
 public class Matrix {
     public static double[][] get(double[] arr) {
+        if (arr==null)
+            throw new NullPointerException("arr is null");
         int len = arr.length;
         double[][] result = new double[len][len];
         for (int i = 0; i < len; i++) {
